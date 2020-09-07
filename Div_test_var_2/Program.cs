@@ -33,6 +33,9 @@ namespace Div_test_var_2
             Console.WriteLine($"Summan av de två talen är: {summa}");
             Console.WriteLine($"Produkten av de två talen är: {produkt}");
 
+            Console.WriteLine();
+
+
             Console.ReadKey();
         }
     }
