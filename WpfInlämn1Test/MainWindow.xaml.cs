@@ -29,5 +29,25 @@ namespace WpfInlämn1Test
         {
 
         }
+
+        private void btnContacts_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnCalendar_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnTasks_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

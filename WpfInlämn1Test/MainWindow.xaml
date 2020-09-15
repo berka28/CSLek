@@ -17,7 +17,6 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="225"/>
-
         </Grid.RowDefinitions>
 
 
@@ -33,25 +32,25 @@
                     </StackPanel>
                 </Button>
 
-                <Button x:Name="btnContacts" Click="btnMessages_Click" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
+                <Button x:Name="btnContacts" Click="btnContacts_Click" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Margin="15,0,0,0" Text="Contacts" />
                     </StackPanel>
                 </Button>
 
-                <Button x:Name="btnCalendar" Click="btnMessages_Click" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
+                <Button x:Name="btnCalendar" Click="btnCalendar_Click" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Margin="15,0,0,0" Text="Calendar" />
                     </StackPanel>
                 </Button>
 
-                <Button x:Name="btnTasks" Click="btnMessages_Click" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
+                <Button x:Name="btnTasks" Click="btnTasks_Click" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Margin="15,0,0,0" Text="Tasks" />
                     </StackPanel>
                 </Button>
 
-                <Button x:Name="btnSettings" Click="btnMessages_Click" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
+                <Button x:Name="btnSettings" Click="btnSettings_Click" Background="Transparent" BorderThickness="0" FontFamily="Century Gothic" FontSize="14" Foreground="white" Padding="20,15,0,10" HorizontalContentAlignment="Left">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Margin="15,0,0,0" Text="Settings" />
                     </StackPanel>
@@ -61,7 +60,7 @@
         </Grid>
 
         <Grid Grid.Column="1" Background="#FF8C94E8" Grid.Row="0"/>
-            <Grid x:Name="navbar2" Grid.Column="2" Background="#FFD1D4F0" />
+         <Grid x:Name="navbar2" Grid.Column="2" Background="#FFD1D4F0" />
         <Grid x:Name="navbar3" Grid.Column="3" Background="White" />
     </Grid>
 </Window>
